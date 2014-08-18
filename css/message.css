@@ -1,0 +1,13 @@
+.container-msg{
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+}
+
+.erro{
+    color: maroon;
+}
+
+.success{
+    color: #006400;
+}

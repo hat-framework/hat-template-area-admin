@@ -1,0 +1,15 @@
+div.painel-item{ padding: 0; overflow: auto; }
+div.painel-item h2{ margin: 0; padding: 0;}
+.painel-item-titulo{margin: 0 0 15px 0; }
+.link{ border-radius: 3px; -moz-border-radius: 3px;-webkit-border-radius: 3px;
+    border: 1px solid #136684; float: left; height: 25px; line-height: 25px; margin: 0 5px 5px 0; text-align: center; width: 120px;
+ }
+ 
+ .link a{
+     text-decoration: none;
+     color: #212120;
+ }
+ 
+ .link:hover{
+    border: 1px inset #212120;
+ }

@@ -1,0 +1,34 @@
+.menu{
+    overflow: hidden;
+    
+}
+.menu a{
+    width: 97% !important;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #147DB6;
+    text-align: center;
+}
+
+.menu .color1 a{
+    font: 18px bold;
+    color: #147DB6;
+    line-height: 35px;
+}
+
+.menu .color2 a{
+    border: none;
+    color: #147DB6;
+    font: 14px bold;
+    line-height: 35px;
+}
+
+.menu .color3 a{font: 14px bold; line-height: 35px;}
+
+.menu a:hover{
+    background-color: #147DB6; 
+    color: #E9E9E9;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #147DB6;
+ }

@@ -1,0 +1,104 @@
+
+/* ------------------------------------------------------------------------------
+    L A Y O U T
+--------------------------------------------------------------------------------- */
+html, body {width: 100%; overflow-x: hidden; height: 100%;}
+#tudo{min-height: 100%;}
+* html #tudo {height: 100%; /* hack para IE6 que trata height como min-height */}
+#tudo{position: relative;}
+
+#header-wrap,
+#footer-wrap,
+#content-wrap,
+#footer-outer{
+    padding: 20px;
+}
+#content{
+    min-height: 300px;
+}
+
+
+/* header */
+#header-wrap {
+  background: url(../img/header-bg.jpg) repeat-x;
+  height: 135px;
+}
+        #header {
+          margin: 45px 0 0 0 ;
+          position: relative;
+        }
+
+        #header h1#logo-text { margin: 0; padding: 0; }
+        #header h1#logo-text a {
+            color: #333;
+            font: bold 55px 'Trebuchet MS', 'Helvetica Neue', Arial, Sans-Serif;
+            letter-spacing: -4px;
+            margin: 0;
+            padding: 0 5px 0 0;
+            position: relative;
+            text-decoration: none;
+            top: 75%;
+        }
+        #header p#slogan {
+            color: #0d6684;
+            font-family: 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, Sans-Serif;
+            font-size: 11px;
+            font-style: normal;
+            font-weight: bold;
+            line-height: 1.8em;
+            letter-spacing: -.5px;
+            margin: 0;
+            padding:  0 5px 0 0;
+            position: relative;
+            top: 75%;
+        }
+
+
+/* content */
+#content-wrap {
+    padding-bottom: 71px;
+    background: #fff;
+}
+        #content {
+           background: #FFF repeat-y center top;
+           clear: both;
+           margin: 0 auto;
+           overflow: hidden;
+        }
+                /* columns */
+                #esq{
+                    float: left;
+                    width: 17%;
+                }
+                #main-dir{
+                    float: right;
+                    width: 79%;
+                }
+
+                        #main {
+                            width: 100%;
+                            float: left;
+                            margin: 0 auto;
+                            padding: 0;
+                        }
+
+                #esq{
+                    display: block;
+                    margin-bottom: -10000em;
+                    padding-bottom: 10000em;
+                }
+
+/* footer */
+#footer-outer {
+    position: absolute;
+    bottom: 0;
+    width: 97%;
+
+    background: url(../img/header-bg.jpg) repeat-x;
+    border-top: #1a5d8a;
+    font-size: .9em;
+    height: 21px;
+    line-height: 20px;
+    margin: 0px;
+    text-align: center;
+}
