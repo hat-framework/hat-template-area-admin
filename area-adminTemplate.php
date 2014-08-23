@@ -2,27 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <?php 
         $this->LoadHead(); 
-        $this->Html->LoadCss("reset");
-        $this->Html->LoadCss("basic");
-        $this->Html->LoadCss("enchancements");
-        $this->Html->LoadCss("layout");
-        $this->Html->LoadCss("fonts");
-        $this->Html->LoadCss("message");
-        $this->Html->LoadCss("menu");
-        $this->Html->LoadCss("formulario");
-        $this->Html->LoadCss("area-admin");
-        $this->Html->LoadCss("table");
-        
+        $this->Html->LoadJquery();
+        $this->Html->LoadCss(array("reset", "basic", "enchancements", "layout", "fonts", "message", "menu", "formulario", "area-admin", "table"));
 ?>
 <body>
     <div id="tudo">
         <!--header -->
         <div id="header-wrap">
             <div id="nav">
-                <?php
-                    //$this->LoadComponent('usuario/login/painel', 'upanel');
-                    //$this->upanel->painelAdmin('menu_superior');
-                ?>
                 <style>.menu_superior{float: right;}</style>
             </div>
             <div id="header">
